@@ -1,0 +1,26 @@
+body{
+  background-color: rgb(60, 35, 168);
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    
+  }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: rebeccapurple;
+}
+.column{
+    flex:1;
+    padding: 10px;
+    background-color: red;
+}
+@media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
